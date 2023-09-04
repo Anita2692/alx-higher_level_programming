@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """ Python Script that
 - fetches https://alx-intranet.hbtn.io/status.
-- from urllib package
+- uses urlib package
 """
 
 
