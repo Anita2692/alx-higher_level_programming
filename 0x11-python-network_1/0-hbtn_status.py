@@ -8,7 +8,7 @@
 if__name__ == '__main__' :
     import urllib.request
 
-    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as rea:
+    with urllib.request.urlopen('https://alx-intranet.hbtn.io/status') as res:
         content = res.read()
         print("Body resonse:")
         print("\t- type: {}".format(type(content)))
